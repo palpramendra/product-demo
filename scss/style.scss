@@ -1,0 +1,94 @@
+$brand:#FF2276;
+
+.bg1
+{
+    background: $brand;
+    position:sticky;
+    
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+.navbar-nav .nav-link.active
+{
+    color: #000;
+}
+.bg2
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.705)),url(https://sangalotech.com/html/22/assets/img/home.jpg);
+    background-size: cover;
+    height: 80vh; 
+    padding: 3rem;
+    a
+    {
+        background: $brand;
+    }
+    
+    h1
+    {
+        color: $brand;
+        padding: 3rem;
+        font-weight: bold;
+       
+    }
+    P
+    {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+}
+.bg3
+{
+    background: bg-secondary-subtle;
+    h2
+    {
+        font-size: 20px;
+    }
+    i
+    {
+        color: $brand;
+        font-size: 3rem;
+    }
+    
+}
+.bg4
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.705)),url(https://sangalotech.com/html/22/assets/img/clients.jpg);
+    background-size: cover;
+    padding: 3rem;
+    background-attachment: fixed;
+    padding: 12rem;
+}
+
+.bg6
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.705)),url(https://sangalotech.com/html/22/assets/img/testimonial.jpg);
+    background-size: cover;
+    padding: 3rem;
+    background-attachment: fixed;
+    padding: 15rem;
+    margin-top: 30px;
+    i
+    {
+        color: $brand;
+    }
+    p
+    {
+        color:#fff;
+    }
+}
+.bg8
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.863)),url(https://sangalotech.com/html/22/assets/img/clients.jpg);
+    background-size: cover;
+    padding: 3rem;
+    background-attachment: fixed;
+    padding: 10rem;
+    color: #fff;
+}
